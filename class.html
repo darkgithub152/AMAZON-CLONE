@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First programe</title>
+    <link rel="stylesheet" href="form.css">
+    <style>
+       body{
+        margin: 0px;
+        padding: 0px;
+       }
+       section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        width: 100%;
+        height: 100vh;
+        background-image: url("gh.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+       }
+       .login-box{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        height: 450px;
+        width: 430px;
+        background-color: transparent;
+        border: 2px solid black;
+        border-radius: 10px;
+       }
+       h2{
+        font-size: 2rem;
+        color: white;
+        text-align: center;
+       }
+       .input-box {
+        position: relative;
+        width: 310px;
+        margin: 30px 0px; 
+        border-bottom: 2px solid black;
+       }
+       .input-box label{
+        position: absolute;
+        top: 20%;
+        left: 10px;
+        transform: translateY(-50);
+        font-size: 1rem;
+        color: white;
+        pointer-events: none;
+        transition: .5s;
+
+       }
+       .input-box input{
+        width: 100%;
+        height: 20px;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        font-size: 1rem;
+        color: white;
+        padding: 0px 150px 0px 5px;
+
+       }
+       .input-box .icon{
+        position: absolute;
+        right: -25px;
+        font-size: 1.5rem;
+       }
+       
+       .forgot{
+        display: flex;
+        text-align: center;
+        color: white;
+       }
+
+       button{
+        width: 100%;
+        height: 40px;
+        border-radius: 40px;
+        background-color: white;
+        border: none;
+        outline: none;
+        margin-top: 15px;
+        cursor: pointer;
+        font-size: 1rem;
+        color: black;
+        font-weight: 900;
+
+       }
+
+       .login-link{
+        color: white;
+        text-align: center;
+        font-size: .9rem;
+        margin-top: 15px;
+       }
+       .login-link a{
+        color: white;
+        text-decoration: none;
+        margin-left: 5px;
+       }
+       .login-link a:hover{
+        text-decoration: underline;
+       }
+       .input-box input:focus~label,
+        .input-box input:valid~label {
+            top: -18px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="login-box">
+            <form action="">
+                <h2>Registration</h2>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="name" required>
+                    <label>Name</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="call"></ion-icon></span>
+                    <input type="text" required>
+                    <label>Mobile</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email"required>
+                    <label>Email</label>
+                </div>
+                <div class="forgot">
+                    <label><input type="checkbox">I agree to the terms & conditions</label>
+                </div>
+                <button type="submit">Registered</button>
+                <div class="login-link">
+                    <p>Already have an account <a href="#">login</a></p>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

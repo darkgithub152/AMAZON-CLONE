@@ -1,0 +1,258 @@
+* {
+    margin: 0px;
+    /* font-family: aptos; */
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #047BD5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+}
+.nav-logo{
+    height: 40px;
+    width: 100px;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+.logo{
+    font-style: italic;
+    color: white;
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+    font-size: 1.85rem;
+    font-family: aptos;
+    
+}
+.border{
+    border: 5px solid transparent;
+}
+.nav-search{
+    width: 652px;
+    height: 56px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 3px;
+    align-items: center;
+    
+
+}
+.search-input{
+    width: 100%;
+    height: 36px;
+    font-size: .85rem;
+    padding: 0px 16px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border: none;
+}
+.search-icon{
+    width: 42px;
+    height: 36px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    
+}
+.icon{
+    color: #047BD5;
+    padding: 4px 12px 0px 8px;
+    font-size: 22px;
+    /* margin-top: 2px; */
+    height: 20px;
+    width: 20px;
+}
+.profile-select{
+    background-color: #047BD5;
+    border: none;
+    color: #ffffff;
+}
+.seller{
+    height: 20px;
+    width: 120px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    color: #ffffff;
+}
+.more{
+    display: flex;
+
+}
+.more-select{
+    border: none;
+    background-color: #047BD5;
+    color: white;
+}
+.cart-icon{
+    color: white;
+    font-size: 0.85rem;
+}
+
+/*panel*/
+.panel{
+    height: 122.2px;
+
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: #37475a; */
+    text-align: center;
+    /* background-color: #e2e7e6; */
+    
+}
+.box{
+    height: 112.2px;
+    width: 23%px;
+    margin-top: 10px;
+    background-color: white;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: 900;
+}
+.box-img{
+    height: 98px;
+    width: 96px;
+    background-size: cover;
+}
+
+/*body section*/
+
+.body-section{
+    display: block;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    height:300px;
+    
+}
+.section-box{
+    height: 310px;
+    
+}
+.s-img{
+    margin-top: 10px;
+    height: 300px;
+    background-size: cover;
+}
+.shop-section{
+    background-color: #e2e7e6;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%
+}
+.shop-box{
+    width: 100%;
+    height: 361px;
+    background-color: white;
+    margin: 10px 3px 10px 10px;
+}
+.box-content{
+    text-align: center;
+    display: flexbox;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.top{
+    margin-top: 50%;
+    width: 210px;
+    height: 41px;
+    font-size: 30.1px;
+}
+.view{
+    width: 96px;
+    height: 38px;
+    color: white;
+    background-color: #2874f0;
+    border-radius: 2px;
+    border: none;
+    margin-left: 55px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.box1-img{
+    width: 200px;
+    height: 220px;
+    background-size: cover;
+    margin-top: 20px;
+
+}
+.box2-img{
+    width: 220px;
+    height: 220px;
+    background-size: cover;
+    margin-top: 20px;
+}
+.box3-img{
+    width: 280px;
+    height: 220px;
+    background-size: cover;
+    margin-top: 10px;
+}
+.box-title{
+    width: 202px;
+    height: 19px;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.box-see{
+    width: 202px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #388e3c;
+}
+.brand{
+    width: 202px;
+    height: 26px;
+    font-size: 14px;
+}
+
+.foot-panel1{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+    color: #878787;
+}
+ul{
+ margin-top: 10px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    color: white;
+    margin-top: 10px;
+}
+.foot-panel3{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    background-color: #222f3d;
+    border-top: 1px solid white;
+    justify-content: center;
+}
+.nav-logo2{
+    background-color: #222f3d;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.logo2{
+    font-style: italic;
+    color: white;
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+    font-size: 1.85rem;
+    font-family: aptos;
+    margin-top: 10px;
+}

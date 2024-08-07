@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            height: 100vh;
+            width: 100%;
+            background-image: url("bg.avif");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            animation: animateBg 5s linear infinite;
+        }
+        @keyframes animateBg{
+            100%{
+                filter: hue-rotate(360deg);
+            }
+        }
+        .login-box{
+            position: relative;
+            width: 400px;
+            height: 450px;
+            background-color: transparent;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid rgba(255, 255, 255, .5);
+            backdrop-filter: blur(20px);
+        }
+        h2{
+            font-size: 2rem;
+            color: white;
+            text-align: center;
+
+        }
+        .input-box{
+            position: relative;
+            width: 310px;
+            margin: 30px 0;
+            border-bottom: 2px solid white;
+        }
+        .input-box label{
+            position: absolute;
+            top: 50%;
+            left: 5px;
+            transform: translateY(-50);
+            font-size: 1rem;
+            color: white;
+            pointer-events: none;
+            transition: .5s;
+        }
+        .input-box input:focus~label,
+        .input-box input:valid~label {
+            top: -5px;
+        }
+        .input-box input{
+            width: 100%;
+            height: 50px;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            font-size: 1rem;
+            color: white;
+            padding: 0px 50px 0px 5px;
+        }
+        .input-box .icon{
+            position: absolute;
+            right: 8px;
+            color: white;
+            font-size: 1.5rem;
+            line-height: 50px;
+        }
+        .remember_forget{
+            margin: -15px 0 15px;
+            font-size: .9rem;
+            color: white;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .remember_forget label input{
+            margin-right: 3%;
+        }
+        .remember_forget a{
+            color: white;
+            text-decoration: none;
+        }
+        .remember_forget a:hover{
+            text-decoration: underline;
+        }
+        button{
+            width: 100%;
+            height: 40px;
+            background-color: white;
+            border: none;
+            outline: none;
+            border-radius: 40px;
+            cursor: pointer;
+            font-size: 1rem;
+            color: black;
+            font-weight: 500;
+        }
+        .register_link{
+            margin: 25px 0px 10px;
+            font-size: .9rem;
+            color: white;
+            text-align: center;
+        }
+        .register_link p a{
+            font-size: .9rem;
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .register_link p a:hover{
+            text-decoration: underline;
+        }
+        @media (max-width: 415px){
+            .login-box {
+                width: 100%;
+                height: 100vh;
+            }
+        }
+    </style>
+
+    <!-- <script type="text/Javascript">
+        let month = prompt("Enter A Months Latter");
+        switch (month) {
+            case 'j': document.write("January");
+                break;
+                case 'b':document.write("Fabruary");
+                break;
+                case 'm':document.write("March");
+                break;
+                case 'a':document.write("April");
+                break;
+                case 'my':document.write("May");
+                break;
+                case 'ju':document.write("Jun");
+                break;
+                case 'jy':document.write("july");
+                break;
+                case 'au':document.write("August");
+                break;
+                case 's':document.write("September");
+                break;
+                case 'o':document.write("Octuber");
+                break;
+                case 'n':document.write("November");
+                break;
+                case 'd':document.write("December");
+                break;
+        
+            default: document.write("Enter A valide latter");
+        }
+    </script> -->
+</head>
+<body>
+    <section>
+    <div class="login-box">
+        <form action="">
+            <h2>Login</h2>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                <input type="email" required>
+                <label>Email</label>
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                <input type="password" required>
+                <label>Password</label>
+            </div>
+            <div class="remember_forget">
+                <lable><input type="checkbox">Remember me</lable>
+                <a href="#">Forget Password</a>
+            </div>
+            <button type="Submit">Login</button>
+            <div class="register_link">
+                <p>don't have an account? <a href="flipkart_login.html">Register</a></p>
+            </div>
+        </form>
+    </div>
+</section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

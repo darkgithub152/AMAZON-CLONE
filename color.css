@@ -1,0 +1,59 @@
+body{
+  background:skyblue;
+}
+
+section{
+    text-align:center;
+    text-decoration:bolder;
+  font-size:30px;
+}
+.Home{
+    color:red;
+    font-size:15px;
+}
+.insert{
+  color:red;
+  font-size:15px;
+}
+.login{
+  color:red;
+  font-size:15px;
+}
+.first{
+  color:red;
+  text-align: center;
+}
+button{
+color:yellow;
+background:green;
+text-decoration:bolder;
+}
+
+p{
+  font-family:times new roman;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+img{
+  width: 500px;
+  margin-right:50px;
+  border-style:solid;
+}
+.navbar{
+  height: 60px;
+  background-color: black;
+  text-align:center;
+}
+
+a{
+  margin-right:200px;
+  color:white;
+  text-decoration:none;
+}
+h1{
+font-size:35px;
+text-align:center;
+}
+.first{
+  margin-left:50px;
+}

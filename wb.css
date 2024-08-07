@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 0px 0px 0px;
+}
+.navbar a:hover{
+    font-size: 20px;
+    color: skyblue;
+}
+.content_box{
+    height: 800px;
+    width: 100%;
+    background-image: url("Farmer.jpg");
+    background-size: cover;
+    font-size: 100px;
+    text-align: center;
+}
+.footer{
+    height: 50px;
+    width: 100%;
+    background-color: #222f3d;
+    margin-top: 5px;
+    text-align: center;
+}
+.footer p{
+    color: white;
+    padding-top: 5px;
+}

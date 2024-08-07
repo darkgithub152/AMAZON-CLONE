@@ -1,0 +1,36 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: arial;
+  background-color: skyblue;
+
+}
+/* div{
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  display: inline-block;
+  border: 2px solid red;
+} */
+
+button{
+  background-color: rgb(40, 10, 10);
+  color: pink;
+  height: 30px;;
+  margin: 20px 0px 0px 20px;
+  font-size: 20px;
+  border-radius: 3px;
+  border: none;
+}
+button:hover{
+  background-color: white;
+  color: black;
+  height: 32px;
+  font-size: 22px;
+}
+p{
+  width: 160px;
+  background-color: red;
+  margin-top: 20px;
+  
+}
